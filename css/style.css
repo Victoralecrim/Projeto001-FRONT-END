@@ -134,7 +134,7 @@ li a:hover {
     font-size: 1.4rem;
 }
 
-@media screen and (min-width: 34.375em) {
+@media screen and (min-width: 80.375em) {
 
     svg {
         bottom: 0;
