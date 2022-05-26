@@ -106,25 +106,31 @@ li a:hover {
 }
 
 .card1 {
-    width: 30rem;
-    color: #353535;
-    padding: 0;
-    border-radius: 4rem;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5em;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
 }
 
-.card_image1 {
-    width: 100%;
-    margin: 50px;
+.card_image {
+    width: 90%;
+    padding: 10px 10;
+    margin: 10px;
     height: 20em;
     object-fit: cover;
     border-radius: .4em;
 }
 
-.card_information-title1 {
+.card_information-title {
     font-size: 3rem;
 }
 
-.card_information-description1 {
+.card_information-description {
     font-size: 1.4rem;
 }
 
@@ -132,123 +138,25 @@ li a:hover {
 
     svg {
         bottom: 0;
-        position: absolute;
+        position: fixed;
     }
 
     .card1 {
-        width: 60rem;
+        width: 40rem;
         display: flex;
         align-items: center;
-        column-gap: 1.5em;
-        position: relative;
+        column-gap: 0;
+        margin: 5%;
+        padding-left: 130px;
+        position: fixed;
     }
 
     .card_image1{
-        flex: 0 0 20rem;
+        flex: 0 0 10rem;
         
     }
 
     .card_information-description{
-        font-size: 1.6rem;
-    }
-}
-
-.card2 {
-    width: 30rem;
-    color: #353535;
-    padding: 0;
-    border-radius: 4rem;
-}
-
-.card_image2 {
-    width: 100%;
-    margin: 0 ;
-    height: 20em;
-    padding-left: 0 ;
-    object-fit: cover;
-    border-radius: .4em;
-}
-
-.card_information-title2 {
-    font-size: 3rem;
-}
-
-.card_information-description2 {
-    font-size: 1.4rem;
-}
-
-@media screen and (min-width: 80.375em) {
-
-    svg {
-        bottom: 0;
-        position: absolute;
-    }
-
-    .card2 {
-        width: 60rem;
-        margin: 0 auto;
-        padding-left: 5px;
-        display: flex;
-        align-items: flex-end;
-        column-gap: 1.5em;
-        position: relative;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        align-content: stretch;
-        justify-content: flex-start;
-    }
-
-    .card_image2{
-        flex: 0 0 20rem;
-        
-    }
-
-    .card_information-description2{
-        font-size: 1.6rem;
-    }
-}
-
-.card_image3 {
-    width: 100%;
-    margin: 20px;
-    height: 20em;
-    object-fit: cover;
-    border-radius: .4em;
-}
-
-.card_information-title3 {
-    font-size: 3rem;
-}
-
-.card_information-description3 {
-    font-size: 1.4rem;
-}
-
-@media screen and (min-width: 80.375em) {
-
-    svg {
-        bottom: 10;
-        position: absolute;
-    }
-
-    .card3 {
-        width: 60rem;
-        display: flex;
-        column-gap: 1.5em;
-        position: relative;
-        flex-direction: row-reverse;
-        flex-wrap: wrap;
-        align-content: stretch;
-        justify-content: flex-start;
-        align-items: flex-end;
-    }
-
-    .card_image3{
-        flex: 0 0 20rem;
-        
-    }
-
-    .card_information-description3{
         font-size: 1.6rem;
     }
 }
