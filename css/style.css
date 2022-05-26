@@ -90,7 +90,10 @@ li a {
     padding: 5px 15px;
 }
 
-
+li a:hover{
+    color: black;
+    background-color: aliceblue;
+}
 
 .card1 {
     display: inline-flex;
