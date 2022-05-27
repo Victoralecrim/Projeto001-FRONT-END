@@ -60,14 +60,16 @@ svg {
 
 ul {
     list-style-type: none;
-    padding: 3px 0;
+   
     text-align: center;
     justify-content: center;
     font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 5px;
 }
 
 .btn {
     margin-top: 4%;
+    padding-top: -40px;
     font-weight: 200;
     color: aliceblue;
 }
@@ -78,7 +80,7 @@ ul {
 }
 
 li {
-    display: inline-block; 
+    display: inline-block;
     margin: 10px;
 }
 
@@ -93,7 +95,7 @@ li a {
     padding: 5px 15px;
 }
 
-li a:hover{
+li a:hover {
     color: black;
     background-color: aliceblue;
 }
@@ -101,15 +103,28 @@ li a:hover{
 .card1 {
     display: inline-flex;
     align-items: center;
+    padding: 30px;
+  
 }
 
-.card_image {
+.card_image1 {
     width: 25%;
-    padding: 10px 5;
-    margin: 10px;
-    object-fit: cover;
-    border-radius: .4em;
-    z-index: 7;
+    border-radius: 5px;
+    margin: -5px;
+    z-index: -2;
+}
+
+.card_image2 {
+    width: 25%;
+    height: 45%;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.card_image3 {
+    width: 25%;
+    border-radius: 5px;
+    margin: -3px;
 }
 
 .card_information-title {
@@ -131,31 +146,28 @@ li a:hover{
         z-index: -2;
     }
 
-    .card1 {
-
-        align-items: center;
-    }
-
-    .card_image1{
+    .card_image1 {
         flex: 0 0 10rem;
-        
+        position: sticky;
     }
 
-    .card_information-description{
+
+    .card_information-description {
         font-size: 1.6rem;
     }
 }
 
 article {
     width: 100%;
-    position: relative;
-    top: 5rem;
+    text-align: center;
+    padding-left: 30px;
+    border-radius: 5px;
 }
 
 
 /*Media querie do texto */
 
-@media (min-width: 62em)  {
+@media (min-width: 62em) {
 
     .text-white {
         font-size: 4.76837rem !important;
@@ -170,7 +182,7 @@ article {
         color: #e1e1e1;
     }
 
-    .text-down{
+    .text-down {
         color: aliceblue;
     }
 
